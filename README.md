@@ -1,7 +1,9 @@
 # 100DaysOfDataStructureAndAlgorithm
 
 ## Day1: Binary Search using python's Bisect Method:
-[Bisect](https://docs.python.org/3/library/bisect.html) in python takes sorted array as input and return index corresponds to related values. This method uses binary search algorithm internally. if element is not present if will pick element accounding to the value of the search
+[Bisect](https://docs.python.org/3/library/bisect.html) in python takes sorted array as input and return index corresponds to related values. The method search for index of left/right element that the searched element could have. This method uses binary search algorithm internally. 
+* `bisect_left` - for finding left element index correspond to search element, if exact element found it will return the index of exact element
+* `bisect_right`/ `bisect` - for finding right element index correspond to search element, if exact element found it will return index of right next element
 Input:
 ```
 import bisect
